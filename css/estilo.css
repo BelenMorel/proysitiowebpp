@@ -1,5 +1,5 @@
 body{
-    padding: 2px;
+    padding: 1px;
 
 }
 
@@ -33,4 +33,43 @@ h1 {
 
  
 
+.fondoBienv{
+  margin-top: 2px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292_640.jpg);
+  background-size: cover;
+
+  height: 470px;
+  align-items: center;
+
  
+}
+
+
+.cardBlur{
+  min-height: 50;
+  min-width: 100;
+  border: 3px solid #fafafa10;
+  border-radius: 1rem;
+  padding: 5px;
+  background: #fafafa10;
+  backdrop-filter: blur(0.9 rem);
+}
+
+.efectoblur{
+  background-color: bisque;
+}
+
+
+.pBienv{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: #000000;
+
+}
+
+.ttlBienv{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+
