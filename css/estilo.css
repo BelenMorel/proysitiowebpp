@@ -2,9 +2,9 @@ body{
     padding: 1px;
 
 }
-
+/* Encabezado superior*/
 h1 {
-    font-size: 42px;
+    font-size: 38px;
     margin-right: 10px;
     font-weight: 850;
     color: white;
@@ -13,31 +13,31 @@ h1 {
 
 }
 
+  .imglogo{
+      padding-bottom: 5px;
+      padding-top: 1px;
+  }
 
+  /*segundo parte Encabezado */
 
-.imglogo{
-    padding-bottom: 5px;
-    padding-top: 1px;
+  .navbar-nav .nav-item:hover .nav-link {
+    background-color: #ffffffbe;
+    color: rgb(0, 0, 0);
 }
 
- .nav-item:hover .nav-link {
-    
-    background-color: #ffffff;
-    color: rgb(0, 0, 0); /* Cambia el color del texto al pasar el mouse */
-  }
-  .nav-link {
+.navbar-nav .nav-link {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }  
+}
 
- 
+
+ /* sección bienvenida*/
 
 .fondoBienv{
   margin-top: 2px;
   background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292_640.jpg);
   background-size: cover;
-
   height: 470px;
   align-items: center;
 
@@ -45,18 +45,19 @@ h1 {
 }
 
 
-.cardBlur{
-  min-height: 50;
-  min-width: 100;
-  border: 3px solid #fafafa10;
+.cardBlur {
+  min-height: 300px; 
+  min-width: 300px;
+  border: 3px solid #fafafa14;
   border-radius: 1rem;
-  padding: 5px;
-  background: #fafafa10;
-  backdrop-filter: blur(0.9 rem);
-}
-
-.efectoblur{
-  background-color: bisque;
+  padding: 20px; 
+  background: rgba(255, 255, 255, 0.168); 
+  backdrop-filter: blur(7px); 
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 30px;
+  
 }
 
 
@@ -64,6 +65,7 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   color: #000000;
+  
 
 }
 
@@ -72,4 +74,44 @@ h1 {
   font-size: 40px;
   color: #ffffff;
 }
+
+/* seccion novedades*/
+.txtNoved{
+  height: 55px;
+  width: 100%;
+  align-items: center;
+  color: #27345d;
+  position: relative;
+  text-align: center;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  background: rgba(13, 12, 12, 0.166); 
+  backdrop-filter: blur(7px); 
+}
+
+.card{
+  border: 3px solid #27345d;
+  
+}
+
+.tamaño-card-img {
+  height: 40%;
+  object-fit: cover;
+}
+
+/* pie pagina*/
+
+.piepag{
+ 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.piepag p {
+    margin: 0;
+}
+
+
+
 
