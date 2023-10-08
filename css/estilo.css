@@ -32,13 +32,14 @@ h1 {
 }
 
 
+
  /* sección bienvenida*/
 
 .fondoBienv{
   margin-top: 2px;
   background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292_640.jpg);
   background-size: cover;
-  height: 470px;
+  height: 490px;
   align-items: center;
 
  
@@ -106,10 +107,28 @@ h1 {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    margin-bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 6px;
 }
 
 .piepag p {
     margin: 0;
+}
+
+/* mas informacion*/
+
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.imginfo{
+  width: 600px;
+  height: 300px;
 }
 
 
