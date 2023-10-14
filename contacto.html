@@ -19,20 +19,25 @@
             <div class="row mt-1">
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center justify-content-md-start" style="background-color: #3D5396;">
-                     <h1 >E.E.T.P.y S.O N°662</h1>
+                    <a class="nav-link" href="index.html"><h1 >E.E.T.P.y S.O N°662</h1></a>
+                    
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center justify-content-md-end" style="background-color: #3D5396;">
                      <img class="imglogo" style="width: 80px; height: 110px; " src="imagenes/logo.png" alt="Logo de la institucion" >
                 </div>
                 
-                <nav class="navbar navbar-expand-sm" style="background-color: #27345d; color: white;">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar navbar-expand-sm" style="display: inline-block; background-color: #27345d; color: white;">
+                    
+                     <a class="nav-link-house" href="index.html">
+                     <i class="fa-solid fa-house" style="color: #ffffff;"></i> </a>  
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars text-white"></i>
                         <span class="ml-3 text-white">Menú</span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="novedades.html">Novedades</a>
                             </li>
@@ -48,9 +53,34 @@
                         </ul>
                     </div>
                 </nav>
-              </div>
+            </div>
         </div>
     </header>
+
+    <main>
+        <div class="card border-secondary my-3 mx-3" style="max-width: 100%;">
+            <div class="card-header">Contactate con nosotros</div>
+            <div class="card-body text-secondary">
+              <p class="card-text">
+                <div id="">
+                    <h6 style="display: inline-block;">Teléfono:</h6>
+                    <span id="texto-a-copiar"><b>3482001122</b></span>
+                    <button id="boton-copiar" class="btn btn-link">
+                        <i class="fa-regular fa-copy" data-description="copiar"></i>
+                    </button>
+                </div>
+                <div class="div">
+                    <h6 style="display: inline-block;">Correo:</h6>
+                    <span id="texto-a-copiar"><b></b></span>
+                    <button id="boton-copiar" class="btn btn-link">
+                        <i class="fa-regular fa-copy" data-description="copiar"></i>
+                    </button>
+                </div>
+                
+              </p>
+            </div>
+          </div>
+    </main>
  
   
 
