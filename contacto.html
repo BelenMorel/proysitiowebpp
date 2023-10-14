@@ -19,7 +19,7 @@
             <div class="row mt-1">
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center justify-content-md-start" style="background-color: #3D5396;">
-                    <a class="nav-link" href="index.html"><h1 >E.E.T.P.y S.O N°662</h1></a>
+                    <a class="nav-link" href="index.html" title="Escuela de Educacion Tecnica N°662"><h1 >E.E.T.P. y S.O. N°662</h1></a>
                     
                 </div>
 
@@ -28,27 +28,26 @@
                 </div>
                 
                 <nav class="navbar navbar-expand-sm" style="display: inline-block; background-color: #27345d; color: white;">
-                    
-                     <a class="nav-link-house" href="index.html">
-                     <i class="fa-solid fa-house" style="color: #ffffff;"></i> </a>  
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars text-white"></i>
-                        <span class="ml-3 text-white">Menú</span>
+                        <span class="ml-3 text-white" title="Menú">Menú</span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            
                             <li class="nav-item">
-                                <a class="nav-link" href="novedades.html">Novedades</a>
+                                <a class="nav-link" href="index.html" title="Inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="horariosClases.html">Horarios de clases</a>
+                                <a class="nav-link" href="novedades.html" title="Novedades">Novedades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="materialEstudio.html">Material de estudio</a>
+                                <a class="nav-link" href="horariosClases.html" title="Horarios de clases">Horarios de clases</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contactos</a>
+                                <a class="nav-link" href="materialEstudio.html" title="Material de estudio">Material de estudio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html" title="Contacto">Contactos</a>
                             </li>
                         </ul>
                     </div>
@@ -58,25 +57,37 @@
     </header>
 
     <main>
-        <div class="card border-secondary my-3 mx-3" style="max-width: 100%;">
-            <div class="card-header">Contactate con nosotros</div>
+        <div class="card border-secondary my-3 mx-3" style="max-width: 100%; height: 100%;">
+            <div class="card-header"><b>Contactate con nosotros</b></div>
             <div class="card-body text-secondary">
               <p class="card-text">
-                <div id="">
-                    <h6 style="display: inline-block;">Teléfono:</h6>
-                    <span id="texto-a-copiar"><b>3482001122</b></span>
-                    <button id="boton-copiar" class="btn btn-link">
+                <div id="contTel">
+                    <h6 style="display: inline-block;" class="dtcont">Teléfono:</h6>
+                    <span id="nrotel" class="dtcont"><b>03482475006</b></span>
+                    <button id="boton-copiar-nrotel" class="btn btn-link" title="Copiar Numero de teléfono">
                         <i class="fa-regular fa-copy" data-description="copiar"></i>
                     </button>
                 </div>
-                <div class="div">
-                    <h6 style="display: inline-block;">Correo:</h6>
-                    <span id="texto-a-copiar"><b></b></span>
-                    <button id="boton-copiar" class="btn btn-link">
+                <div id="ContCorreo">
+                    <h6 style="display: inline-block;" class="dtcont">Correo:</h6>
+                    <span id="dircorreo" class="dtcont"><b>sec662_villaguillermina@santafe.edu.ar</b></span>
+                    <button id="boton-copiar-dircorreo" class="btn btn-link" title="Copiar Correo">
                         <i class="fa-regular fa-copy" data-description="copiar"></i>
                     </button>
                 </div>
-                
+                <div id="ContDir">
+                    <h6 style="display: inline-block;" class="dtcont">Dirección:</h6>
+                    <a href="https://www.google.com/maps/place/E.E.T.P.+y+S.O.+N%C2%B0662/@-28.2444594,
+                    -59.4541345,18z/data=!4m6!3m5!1s0x944f6a8c10c7cebf:0x9de9cc345fd0bb11!8m2!3d
+                    -28.2442608!4d-59.4540013!16s%2Fg%2F11fxb22n9p?entry=ttu" 
+                    target="_blank" title="Direccion de la institución" class="dtcont">Calle Tucumán/Menchaca, Villa Guillermina, Argentina</a></p>
+                </div>
+                <div id="ContRdes ">
+                    <h6 class="dtcont col-sm-12 col-md-12" style="display: inline-block;" >Seguinos en nuestras redes sociales:</h6>
+                    <a href="https://www.facebook.com/eetpyso662villaguillermina/about?locale=es_LA" class="btn btn-primary ml-4" title="Facebook"><i class="fa-brands fa-facebook"></i><h6>Facebook</h6></a>
+                    <a href="#" class="btn btn-primary btncont mx-4 my-4" style="background-color: #db3603;" title="Instagram"><i class="fa-brands fa-instagram"></i> <h6>Instagram</h6></a>
+                    <a href="#" class="btn btn-primary btncont" style="background-color: #ff0000;" title="YouTube"><i class="fa-brands fa-youtube"></i><h6>YouTube</h6></a>
+                </div>
               </p>
             </div>
           </div>

@@ -3,32 +3,24 @@ document.querySelector('.navbar-toggler').addEventListener('click', function() {
  document.querySelector('.collapse').classList.toggle('show');
 });
 
-// Boton para copiar nro
-
-document.getElementById("boton-copiar").addEventListener("click", function() {
+// Botón para copiar número de teléfono
+document.getElementById("boton-copiar-nrotel").addEventListener("click", function() {
     var textoACopiar = document.getElementById("nrotel").textContent;
     
-    var campoTemporal = document.createElement("textarea");
-    campoTemporal.value = textoACopiar;
-  
-    document.body.appendChild(campoTemporal);
-  
-    campoTemporal.select();
-    campoTemporal.setSelectionRange(0, 99999);
-  
-    document.execCommand("copy");
-  
-    document.body.removeChild(campoTemporal);
-  
-  });
-  
-  // Boton para copiar nro
-  document.getElementById("boton-copiar").addEventListener("click", function() {
-    var textoACopiar = document.getElementById("dircorreo").textContent;
+    copiarAlPortapapeles(textoACopiar);
+});
+
+// Botón para copiar dirección de correo 
+document.getElementById("boton-copiar-dircorreo").addEventListener("click", function() {
+    var textCopiar = document.getElementById("dircorreo").textContent;
     
+    copiarAlPortapapeles(textCopiar);
+});
+
+function copiarAlPortapapeles(texto) {
     var campoTemporal = document.createElement("textarea");
-    campoTemporal.value = textoACopiar;
-  
+    campoTemporal.value = texto;
+    
     document.body.appendChild(campoTemporal);
   
     campoTemporal.select();
@@ -38,4 +30,5 @@ document.getElementById("boton-copiar").addEventListener("click", function() {
   
     document.body.removeChild(campoTemporal);
   
-  });
+    alert("Texto copiado: " + texto);
+}
