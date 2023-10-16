@@ -36,6 +36,12 @@ h1 {
   font-size: 20px;
 }
 
+.dropdown-item:hover {
+  background-color:  #27345d; 
+  color: #fff; 
+}
+
+
  /* sección bienvenida*/
 
 .fondoBienv{
