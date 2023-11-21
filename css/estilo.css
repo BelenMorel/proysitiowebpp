@@ -129,6 +129,7 @@ h1 {
 
 /* mas informacion*/
 
+
 .carousel-item img {
   width: 100%;
   height: 500px;
@@ -140,8 +141,14 @@ h1 {
   height: 300px;
 }
 
+.parrafohistoria{
+  text-align: justify;
+}
 
 /*pagina de contacto*/
+.titulofooter{
+  font-size: 25px;
+}
 
 .cardcontactos{
   display: flex;
@@ -152,7 +159,44 @@ h1 {
 
 
 .dtcont{
-  font-size: 16px;
-  color: #000000;
+  font-size: 20px;
+  color: #ffffff;
 }
 
+/*pagina de horarios*/
+
+.oculto {
+  display: none;
+}
+
+.botones-container {
+  display: flex;
+}
+
+.toggle-btn {
+  margin: 5px;
+}
+
+.infoHorabach .h2{
+  justify-content: center;
+}
+
+/*Horario de clases*/
+
+.imghorario{
+
+
+}
+
+
+.p-textHorBach{
+  font-size: larger;
+  font-weight: 500;
+  margin: 0;
+}
+
+.botCursos {
+  background-color: #27345d;
+  border-color: #27345d;
+  color: white; 
+}

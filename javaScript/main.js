@@ -32,3 +32,36 @@ function copiarAlPortapapeles(texto) {
   
     alert("Texto copiado: " + texto);
 }
+
+
+//mostrar y ocultar informacion de horarios
+
+window.onload = function() {
+    toggleInfo('pdfContent1');
+};
+
+function toggleInfo(contentId) {
+    // Oculta los contenidos
+    var allContents = document.querySelectorAll('.info-content');
+    allContents.forEach(function(content) {
+        content.style.display = 'none';
+    });
+
+    // Muestra el contenido 
+    var selectedContent = document.getElementById(contentId);
+    selectedContent.style.display = 'block';
+
+   // Actualiza el elemento que muestra la opción seleccionada
+   var selectedOptionDisplay = document.getElementById('selectedOptionDisplay');
+   selectedOptionDisplay.textContent = selectedOption;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const pdfViewer = document.getElementById('pdfViewer');
+    const pdfUrl = 'path/to/your/file1.pdf';
+
+    window.PDFViewerApplication.initializeViewer(pdfViewer);
+    window.PDFViewerApplication.open(pdfUrl);
+  });
+
+ 
