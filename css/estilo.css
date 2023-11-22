@@ -145,6 +145,16 @@ h1 {
   text-align: justify;
 }
 
+.parrafohistoria h2{
+  text-align: justify;
+
+}
+
+p {
+  line-height: 1.5;
+}
+
+
 /*pagina de contacto*/
 .titulofooter{
   font-size: 25px;
