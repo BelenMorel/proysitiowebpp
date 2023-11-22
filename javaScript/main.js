@@ -37,29 +37,22 @@ document.querySelector('.navbar-toggler').addEventListener('click', function() {
    //mostrar y ocultar informacion
    
    window.onload = function() {
-       toggleInfo('pdfContent1');
-   };
-   
-   
-   window.onload = function() {
-     toggleInfo('Materia1');
-   };
-   
-   function toggleInfo(contentId) {
-       // Oculta los contenidos
-       var allContents = document.querySelectorAll('.info-content');
-       allContents.forEach(function(content) {
-           content.style.display = 'none';
-       });
-   
-       // Muestra el contenido 
-       var selectedContent = document.getElementById(contentId);
-       selectedContent.style.display = 'block';
-   
-      // Actualiza el elemento seleccionads
-      var selectedOptionDisplay = document.getElementById('selectedOptionDisplay');
-      selectedOptionDisplay.textContent = selectedOption;
-   }
+    toggleInfo('pdfContent1');
+    toggleInfo('Materia1');
+};
+
+function toggleInfo(contentId) {
+    // Oculta los contenidos
+    var allContents = document.querySelectorAll('.info-content');
+    allContents.forEach(function(content) {
+        content.style.display = 'none';
+    });
+
+    // Muestra el contenido
+    var selectedContent = document.getElementById(contentId);
+    selectedContent.style.display = 'block';
+}
+
    
    
    function toggleAnio(contentId) {
