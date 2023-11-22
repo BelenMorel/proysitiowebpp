@@ -34,11 +34,13 @@ function copiarAlPortapapeles(texto) {
 }
 
 
-//mostrar y ocultar informacion de horarios
+//mostrar y ocultar informacion
 
 window.onload = function() {
     toggleInfo('pdfContent1');
 };
+
+
 
 function toggleInfo(contentId) {
     // Oculta los contenidos
@@ -56,12 +58,23 @@ function toggleInfo(contentId) {
    selectedOptionDisplay.textContent = selectedOption;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const pdfViewer = document.getElementById('pdfViewer');
-    const pdfUrl = 'path/to/your/file1.pdf';
 
-    window.PDFViewerApplication.initializeViewer(pdfViewer);
-    window.PDFViewerApplication.open(pdfUrl);
-  });
+function toggleAnio(contentId) {
+    document.getElementById('pdfContent1').style.display = 'none';
+    document.getElementById('pdfContent1d').style.display = 'none';
+    document.getElementById(contentId).style.display = 'block';
+}
 
- 
+function toggleMateria(materiaId) {
+    document.getElementById('materia1-1').style.display = 'none';
+    document.getElementById('materia1-2').style.display = 'none';
+    document.getElementById('materia1-1d').style.display = 'none';
+    document.getElementById('materia1-2d').style.display = 'none';
+    document.getElementById(materiaId).style.display = 'block';
+}
+  
+window.onload = function() {
+        var materia1_1 = document.getElementById('materia1-1');
+        // Establecer el estilo para hacer el div visible
+    materia1_1.style.display = 'block';
+};
