@@ -88,24 +88,24 @@
           cursos
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent1', '1° Año')"> 1° A</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent2', '2° Año')"> 1° D</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent3', '3° Año')"> 2° B</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent4', '4° Año')"> 2° D</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent5', '5° Año')"> 3° A</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent1', '1° Año')"> 3° B</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent2', '2° Año')"> 4° A</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent3', '3° Año')"> 4° B</a></li>
-            <li><a class="dropdown-item" href="#" onclick="toggleInfo('pdfContent4', '4° Año')"> 5° U</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent1a')"> 1° A</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent1d')"> 1° D</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent2b')"> 2° B</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent2d')"> 2° D</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent3a')"> 3° A</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent3b')"> 3° B</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent4a')"> 4° A</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent4b')"> 4° B</a></li>
+            <li><a class="dropdown-item"  onclick="toggleInfo('pdfContent5')"> 5° U</a></li>
 
         </ul>
       </div>
     </div>
 
-    <div id="pdfContent1" class="info-content card" style="display: block;">
+    <div id="pdfContent1a" class="info-content card" style="display: block;">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title txtHb">Horarios de clases de 1° A de la modalidad Bachiller</h5>
-          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="">
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 1° A de la modalidad Bachiller">
           <br>
           <div class="d-flex justify-content-end">
             <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
@@ -113,13 +113,11 @@
           </div>
         </div>
       </div>
-    </div>
-      <!---
 
-      <div id="pdfContent2" class="info-content card" style="display: block;">
+    <div id="pdfContent1d" class="info-content card" style="display: none;">
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title txtHb">Horarios de clases de 2° A de la modalidad Bachiller</h5>
-          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="">
+          <h5 class="card-title txtHb">Horarios de clases de 1° D de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 1° D de la modalidad Bachiller">
           <br>
           <div class="d-flex justify-content-end">
             <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
@@ -128,10 +126,71 @@
         </div>
       </div>
 
-      <div id="pdfContent3" class="info-content card" style="display: block;">
+      <div id="pdfContent2b" class="info-content card" style="display: none;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title txtHb">Horarios de clases de 2° B de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 2° B de la modalidad Bachiller">
+          <br>
+          <div class="d-flex justify-content-end">
+            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
+              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
+          </div>
+        </div>
+      </div>
+      
+
+      <div id="pdfContent2d" class="info-content card" style="display: none;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title txtHb">Horarios de clases de 2° D de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 2° D de la modalidad Bachiller">
+          <br>
+          <div class="d-flex justify-content-end">
+            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
+              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="pdfContent3a" class="info-content card" style="display: none;">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title txtHb">Horarios de clases de 3° A de la modalidad Bachiller</h5>
-          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="">
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 3° A de la modalidad Bachiller">
+          <br>
+          <div class="d-flex justify-content-end">
+            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
+              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="pdfContent3b" class="info-content card" style="display: none;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title txtHb">Horarios de clases de 3° B de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 3° B de la modalidad Bachiller">
+          <br>
+          <div class="d-flex justify-content-end">
+            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
+              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="pdfContent4a" class="info-content card" style="display: none;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title txtHb">Horarios de clases de 4° A de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 4° A de la modalidad Bachiller">
+          <br>
+          <div class="d-flex justify-content-end">
+            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
+              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="pdfContent4b" class="info-content card" style="display: none;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title txtHb">Horarios de clases de 4° B de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 4° B de la modalidad Bachiller">
           <br>
           <div class="d-flex justify-content-end">
             <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
@@ -140,10 +199,10 @@
         </div>
       </div> 
 
-      <div id="pdfContent4" class="info-content card" style="display: block;">
+      <div id="pdfContent5" class="info-content card" style="display: none;">
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title txtHb">Horarios de clases de 4° A de la modalidad Bachiller</h5>
-          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="">
+          <h5 class="card-title txtHb">Horarios de clases de 5° U de la modalidad Bachiller</h5>
+          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="Horarios de clases de 5° U de la modalidad Bachiller">
           <br>
           <div class="d-flex justify-content-end">
             <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
@@ -152,18 +211,7 @@
         </div>
       </div>
 
-      <div id="pdfContent5" class="info-content card" style="display: block;">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title txtHb">Horarios de clases de 5° Año de la modalidad Bachiller</h5>
-          <img class="imghorario col-12" src="imagenes/Capturahorarios.PNG" alt="">
-          <br>
-          <div class="d-flex justify-content-end">
-            <a href="imagenes/Capturahorarios.PNG" download="imagen1.png"
-              class="btndesc btn btn-primary mt-2" style="background-color: #3D5396;">Descargar Imagen</a>
-          </div>
-        </div>
-      </div>
-      -->
+     
   </div>
   <br>
 
